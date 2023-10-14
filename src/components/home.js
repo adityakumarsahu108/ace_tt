@@ -1,4 +1,7 @@
 import React, { } from "react";
+import Video from "./Video";
+
+
 
 
 function Home() {
@@ -76,7 +79,7 @@ function Home() {
                             </div>
                         </div>
                     </section>{/* End About Section */}
-                    
+
                     {/* ======= Features Section ======= */}
                     <section id="features" className="features">
                         <div className="container" data-aos="fade-up">
@@ -117,63 +120,71 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay={100}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bxl-dribbble" /></div>
-                                        <h4><a href>Lorem Ipsum</a></h4>
-                                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                        <div className="icon"><i class='bx bx-body'></i></div>
+                                        <h4><a href>Beginner's Classes</a></h4>
+                                        <p> Introductory classes for beginners, teaching the basic rules, strokes, and footwork. These classes help newcomers get started in the sport.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay={200}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-file" /></div>
-                                        <h4><a href>Sed ut perspiciatis</a></h4>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                        <div className="icon"><i class='bx bx-user-plus'></i></div>
+                                        <h4><a href>Advanced Training</a></h4>
+                                        <p>For more experienced players, to fine-tune skills, develop advanced strategies, and prepare for competitive play.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay={300}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-slideshow" /></div>
-                                        <h4><a href>table tennis</a></h4>
-                                        <p>we provide coaching all across jayanagr and are the best</p>
+                                        <div className="icon"><i class='bx bx-cool'></i></div>
+                                        <h4><a href>Private Coaching</a></h4>
+                                        <p>Personalized one-on-one coaching is available for players who want individual attention and customized training plans.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={100}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-world" /></div>
-                                        <h4><a href>Nemo Enim</a></h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                        <div className="icon"><i className="bx bx-trophy" /></div>
+                                        <h4><a href>Tournaments and Leagues</a></h4>
+                                        <p>In-house tournaments and leagues, allowing members to compete and track their progress.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={200}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-slideshow" /></div>
-                                        <h4><a href>Dele cardo</a></h4>
-                                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                                        <div className="icon"><i class='bx bx-run'></i></div>
+                                        <h4><a href>Fitness and Conditioning</a></h4>
+                                        <p>Physical fitness  offered to help players improve their agility, strength, and endurance for table tennis.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={300}>
                                     <div className="icon-box">
-                                        <div className="icon"><i className="bx bx-arch" /></div>
-                                        <h4><a href>Divera don</a></h4>
-                                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                                        <div className="icon"><i className="bx bx-street-view" /></div>
+                                        <h4><a href>Open Play and Practice</a></h4>
+                                        <p> Open play sessions where members can practice and play with others.  Opportunity for applying what they've learned in coaching sessions.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>{/* End Services Section */}
                     {/* ======= Cta Section ======= */}
-                    <section id="cta" className="cta">
+                    <section id="testimonials1" className="testimonials1">
                         <div className="container" data-aos="zoom-in">
-                            <div className="text-center">
-                                <h3>Call To Action</h3>
-                                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                                {/* <a class="cta-btn" href="#">Call To Action</a> */}
+                            <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay={100}>
+                                <div className="swiper-wrapper">
+                                    <div className="swiper-slide">
+                                        <div className="testimonial-item">
+
+                                            <img src="assets/img/testimonials/g.png" className="testimonial-img" alt />
+                                            <h3>Girish Kulkarni</h3>
+                                            <i className="bx bxs-quote-alt-left quote-icon-left" />
+                                            Great atmosphere and excellent coaches makes it an ideal place for kids to start TT. Facilities are very good , attention given by coaches makes it a great training facility.Coaches are professional and well behaved. They give individual focus to each kid. Ensure that kids graduate slowly to next phases of expertise. They vary the pace according to each kid's abilities.
+                                            <i className="bx bxs-quote-alt-right quote-icon-right" />
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className="swiper-pagination" />
                             </div>
                         </div>
-                    </section>{/* End Cta Section */}
+                    </section>{/* End Testimonials Section */}
                     {/* ======= Portfolio Section ======= */}
                     <section id="portfolio" className="portfolio">
                         <div className="container" data-aos="fade-up">
@@ -181,133 +192,154 @@ function Home() {
                                 <h2>Achievements</h2>
                                 <p>Check our Achievements</p>
                             </div>
-                            <div className="row" data-aos="fade-up" data-aos-delay={100}>
+                            <div className="row" data-aos="fade-up" >
                                 <div className="col-lg-12 d-flex justify-content-center">
                                     <ul id="portfolio-flters">
-                                        <li data-filter="*" className="filter-active">All</li>
-                                        <li data-filter=".filter-app">App</li>
-                                        <li data-filter=".filter-card">Card</li>
-                                        <li data-filter=".filter-web">Web</li>
+
+                                        <li data-filter=".filter-app">Photos</li>
+                                        <li data-filter=".filter-card">Awards</li>
+                                        <li data-filter=".filter-web">Videos</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="row portfolio-container" data-aos="fade-up" data-aos-delay={200}>
+                            <div className="row portfolio-container" data-aos="fade-up" >
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo2.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>App 1</h4>
-                                            <p>App</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Photo</h4>
+                                            <p>Photo</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo1.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Web 3</h4>
-                                            <p>Web</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>App 2</h4>
-                                            <p>App</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award2.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Card 2</h4>
-                                            <p>Card</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award1.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Web 2</h4>
-                                            <p>Web</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award3.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award7.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award8.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>App 3</h4>
-                                            <p>App</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award9.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award10.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Card 1</h4>
-                                            <p>Card</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award5.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
-                                            <h4>Card 3</h4>
-                                            <p>Card</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award6.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                                    <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt />
-                                        <div className="portfolio-info">
-                                            <h4>Web 3</h4>
-                                            <p>Web</p>
-                                            {/* <div class="portfolio-links">
-            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-          </div> */}
-                                        </div>
+                                    <div className="mamavideo">
+
+                                        <Video />
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -365,64 +397,21 @@ function Home() {
                                 <div className="swiper-wrapper">
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt />
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
+                                            <img src="assets/img/testimonials/anup.png" className="testimonial-img" alt />
+                                            <h3>Anup Gaur</h3>
+
                                             <p>
                                                 <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                                Very professional with good facilities and ambience. The best part i felt is the positive vibes with all the nice players , lighting etc. Good place to be, i use it regularly. You have one of the top coaches here for both badminton and table tennis.
                                                 <i className="bx bxs-quote-alt-right quote-icon-right" />
+
+
                                             </p>
+
+
                                         </div>
                                     </div>
-                                    <div className="swiper-slide">
-                                        <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt />
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
-                                            <p>
-                                                <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                                <i className="bx bxs-quote-alt-right quote-icon-right" />
-                                            </p>
-                                        </div>
-                                    </div>{/* End testimonial item */}
-                                    <div className="swiper-slide">
-                                        <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt />
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
-                                            <p>
-                                                <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                                <i className="bx bxs-quote-alt-right quote-icon-right" />
-                                            </p>
-                                        </div>
-                                    </div>{/* End testimonial item */}
-                                    <div className="swiper-slide">
-                                        <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt />
-                                            <h3>Matt Brandon</h3>
-                                            <h4>Freelancer</h4>
-                                            <p>
-                                                <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                                <i className="bx bxs-quote-alt-right quote-icon-right" />
-                                            </p>
-                                        </div>
-                                    </div>{/* End testimonial item */}
-                                    <div className="swiper-slide">
-                                        <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt />
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
-                                            <p>
-                                                <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                                <i className="bx bxs-quote-alt-right quote-icon-right" />
-                                            </p>
-                                        </div>
-                                    </div>{/* End testimonial item */}
+
                                 </div>
                                 <div className="swiper-pagination" />
                             </div>
@@ -440,12 +429,7 @@ function Home() {
                                     <div className="member" data-aos="fade-up" data-aos-delay={100}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-1.jpg" className="img-fluid" alt />
-                                            <div className="social">
-                                                <a href><i className="bi bi-twitter" /></a>
-                                                <a href><i className="bi bi-facebook" /></a>
-                                                <a href><i className="bi bi-instagram" /></a>
-                                                <a href><i className="bi bi-linkedin" /></a>
-                                            </div>
+
                                         </div>
                                         <div className="member-info">
                                             <h4>Walter White</h4>
@@ -457,12 +441,7 @@ function Home() {
                                     <div className="member" data-aos="fade-up" data-aos-delay={200}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-2.jpg" className="img-fluid" alt />
-                                            <div className="social">
-                                                <a href><i className="bi bi-twitter" /></a>
-                                                <a href><i className="bi bi-facebook" /></a>
-                                                <a href><i className="bi bi-instagram" /></a>
-                                                <a href><i className="bi bi-linkedin" /></a>
-                                            </div>
+
                                         </div>
                                         <div className="member-info">
                                             <h4>Sarah Jhonson</h4>
@@ -474,12 +453,7 @@ function Home() {
                                     <div className="member" data-aos="fade-up" data-aos-delay={300}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-3.jpg" className="img-fluid" alt />
-                                            <div className="social">
-                                                <a href><i className="bi bi-twitter" /></a>
-                                                <a href><i className="bi bi-facebook" /></a>
-                                                <a href><i className="bi bi-instagram" /></a>
-                                                <a href><i className="bi bi-linkedin" /></a>
-                                            </div>
+
                                         </div>
                                         <div className="member-info">
                                             <h4>William Anderson</h4>
@@ -491,12 +465,7 @@ function Home() {
                                     <div className="member" data-aos="fade-up" data-aos-delay={400}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-4.jpg" className="img-fluid" alt />
-                                            <div className="social">
-                                                <a href><i className="bi bi-twitter" /></a>
-                                                <a href><i className="bi bi-facebook" /></a>
-                                                <a href><i className="bi bi-instagram" /></a>
-                                                <a href><i className="bi bi-linkedin" /></a>
-                                            </div>
+
                                         </div>
                                         <div className="member-info">
                                             <h4>Amanda Jepson</h4>
@@ -514,9 +483,7 @@ function Home() {
                                 <h2>Contact</h2>
                                 <p>Contact Us</p>
                             </div>
-                            {/* <div>
-    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-  </div> */}
+
                             <div><iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.245484283715!2d77.53382337463076!3d12.891930316620872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f948eb526e7%3A0xf55ef6d38e39c1fb!2sMatch%20Point%20Sports%20Arena!5e0!3m2!1sen!2sin!4v1696352734529!5m2!1sen!2sin" frameBorder={0} allowFullScreen /></div>
                             <div className="row mt-5">
                                 <div className="col-lg-4">
@@ -538,32 +505,6 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div class="col-lg-8 mt-5 mt-lg-0">
-
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
-
-    </div> */}
                             </div>
                         </div>
                     </section>{/* End Contact Section */}

@@ -1,14 +1,4 @@
-/**
-* Template Name: Gp
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -151,6 +141,7 @@ h6 {
 #header .logo img {
   max-height: 60px;
   height: auto;
+  background-size: contain;
   
 }
 
@@ -703,7 +694,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -717,7 +708,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/portfolio/portfolio-2.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -813,6 +804,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -869,6 +861,7 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
+  
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
@@ -938,6 +931,9 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+.video_container{
+  display: flex;
 }
 
 /*--------------------------------------------------------------
@@ -1027,7 +1023,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials/tt.jpeg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1129,6 +1125,9 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+}
+.testimonial-img{
+  size: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1556,4 +1555,114 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+
+.testimonials1 {
+  padding: 80px 0;
+  background: url("../img/portfolio/portfolio-2.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.testimonials1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.testimonials1 .section-header {
+  margin-bottom: 40px;
+}
+
+.testimonials1 .testimonials1-carousel,
+.testimonials1 .testimonials1-slider {
+  overflow: hidden;
+}
+
+.testimonials1 .testimonial-item {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials1 .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.testimonials1 .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.testimonials1 .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left,
+.testimonials1 .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+}
+
+.testimonials1 .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials1 .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials1 .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.testimonials1 .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials1 .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0.5;
+}
+
+.testimonials1 .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  .testimonials1 {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials1 .testimonial-item p {
+    width: 80%;
+  }
+}
+.testimonial-img{
+  size: 10px;
 }
