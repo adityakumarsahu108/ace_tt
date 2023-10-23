@@ -61,19 +61,17 @@ function Home() {
                                     <img src="assets/img/about.jpg" className="img-fluid" alt />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay={100}>
-                                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                                    <h3>Welcome to ACE TT, your ultimate destination for all things table tennis! </h3>
                                     <p className="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                    We are passionate about the sport of table tennis and are dedicated to providing a comprehensive platform for enthusiasts, players, and fans from all around Bengaluru.
                                     </p>
                                     <ul>
-                                        <li><i className="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                        <li><i className="ri-check-double-line" /> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                        <li><i className="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                        <li><i className="ri-check-double-line" /> Whether you're a beginner or an advanced player seeking to hone your skills, ACE TT offers a wealth of resources, tips, and techniques.</li>
+                                        <li><i className="ri-check-double-line" />  Get personalized training and coaching tips from experienced players and coaches. Elevate your game and reach your full potential.</li>
+                                        <li><i className="ri-check-double-line" /> Connect with fellow table tennis enthusiasts. Share your experiences, ask for advice, or simply chat about the sport you love.</li>
                                     </ul>
                                     <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                                    At ACE TT, our mission is simple: to promote and celebrate the sport of table tennis. We aim to create a vibrant and inclusive community that fosters the growth of the game and welcomes players of all levels. 
                                     </p>
                                 </div>
                             </div>
@@ -86,25 +84,25 @@ function Home() {
                             <div className="row">
                                 <div className="image col-lg-6" style={{ backgroundImage: 'url("assets/img/features.jpg")' }} data-aos="fade-right" />
                                 <div className="col-lg-6" data-aos="fade-left" data-aos-delay={100}>
+                                    <div className="icon-box mt-5" data-aos="zoom-in" data-aos-delay={150}>
+                                        <i className="bx bx-shield" />
+                                        <h4>ACE TT is your one-stop destination for all things table tennis.</h4>
+                                        <p> We are committed to providing a platform that caters to every aspect of the sport, whether you're a dedicated player or a passionate fan.</p>
+                                    </div>
                                     <div className="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay={150}>
                                         <i className="bx bx-receipt" />
-                                        <h4>Est labore ad</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                        <h4>Personalized Coaching and Training</h4>
+                                        <p>Receive expert guidance from seasoned players and coaches. Get personalized training plans and tips to improve your game and achieve your goals.</p>
                                     </div>
                                     <div className="icon-box mt-5" data-aos="zoom-in" data-aos-delay={150}>
                                         <i className="bx bx-cube-alt" />
-                                        <h4>Harum esse qui</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                        <h4>Beginner's Corner</h4>
+                                        <p>If you're new to the sport, our Beginner's Corner provides you with the fundamentals of table tennis, helping you kickstart your journey.</p>
                                     </div>
                                     <div className="icon-box mt-5" data-aos="zoom-in" data-aos-delay={150}>
                                         <i className="bx bx-images" />
-                                        <h4>Aut occaecati</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                                    </div>
-                                    <div className="icon-box mt-5" data-aos="zoom-in" data-aos-delay={150}>
-                                        <i className="bx bx-shield" />
-                                        <h4>Beatae veritatis</h4>
-                                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                        <h4>Events and Tournaments</h4>
+                                        <p>Find information on upcoming table tennis tournaments, both local and national. Discover how you can participate and play in action.</p>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +172,12 @@ function Home() {
                                             <img src="assets/img/testimonials/g.png" className="testimonial-img" alt />
                                             <h3>Girish Kulkarni</h3>
                                             <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                            Great atmosphere and excellent coaches makes it an ideal place for kids to start TT. Facilities are very good , attention given by coaches makes it a great training facility.Coaches are professional and well behaved. They give individual focus to each kid. Ensure that kids graduate slowly to next phases of expertise. They vary the pace according to each kid's abilities.
+                                            ACE TT is a professional coaching acadamy with clear goal to produce professional players.
+                                            Coach is also good and very friendly with all students.
+                                            My son is very confortable to go to this acadamy
+                                            Flexible timing is an advantage for all players
+                                            Very good Facility with proper lighting.
+                                            The charges is also very reasonable.
                                             <i className="bx bxs-quote-alt-right quote-icon-right" />
 
                                         </div>
@@ -226,6 +229,36 @@ function Home() {
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
                                         <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo4.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo5.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo6.jpg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -333,6 +366,36 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award11.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award12.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/award13.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Awards</h4>
+                                            <p>Award</p>
+
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                     <div className="mamavideo">
 
@@ -351,23 +414,23 @@ function Home() {
                                 <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay={100} />
                                 <div className="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay={100}>
                                     <div className="content d-flex flex-column justify-content-center">
-                                        <h3>Voluptatem dignissimos provident quasi</h3>
+                                        <h3>At ACE TT, we understand that our students are at the heart of our success.</h3>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                                        We are dedicated to ensuring your satisfaction and providing the best possible experience. Here's how we go the extra mile to keep our students happy.
                                         </p>
                                         <div className="row">
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
                                                 <div className="count-box">
                                                     <i className="bi bi-emoji-smile" />
                                                     <span data-purecounter-start={0} data-purecounter-end={65} data-purecounter-duration={10} className="purecounter" />
-                                                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                                                    <p><strong>Happy Students</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
                                                 <div className="count-box">
                                                     <i className="bi bi-journal-richtext" />
                                                     <span data-purecounter-start={0} data-purecounter-end={115} data-purecounter-duration={2} className="purecounter" />
-                                                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                                                    <p><strong>Tournaments</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
@@ -398,11 +461,11 @@ function Home() {
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
                                             <img src="assets/img/testimonials/anup.png" className="testimonial-img" alt />
-                                            <h3>Anup Gaur</h3>
+                                            <h3>Anitha Baliga</h3>
 
                                             <p>
                                                 <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Very professional with good facilities and ambience. The best part i felt is the positive vibes with all the nice players , lighting etc. Good place to be, i use it regularly. You have one of the top coaches here for both badminton and table tennis.
+                                                Very good place for Kids! Srivasta takesc of kids and gives personal attention, and overall grooming. He enthusiastically encourages children to participate in tournaments too. Looking forward for more accomplishments and laurels for children and academy too.
                                                 <i className="bx bxs-quote-alt-right quote-icon-right" />
 
 
@@ -428,16 +491,16 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={100}>
                                         <div className="member-img">
-                                            <img src="assets/img/team/team-1.jpg" className="img-fluid" alt />
+                                            <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt />
 
                                         </div>
                                         <div className="member-info">
-                                            <h4>Walter White</h4>
-                                            <span>Chief Executive Officer</span>
+                                            <h4>Srivasta</h4>
+                                            <span>Head Coach</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                {/* {/* <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={200}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-2.jpg" className="img-fluid" alt />
@@ -448,8 +511,8 @@ function Home() {
                                             <span>Product Manager</span>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+                                </div> */}
+                                {/* <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={300}>
                                         <div className="member-img">
                                             <img src="assets/img/team/team-3.jpg" className="img-fluid" alt />
@@ -460,19 +523,19 @@ function Home() {
                                             <span>CTO</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={400}>
                                         <div className="member-img">
-                                            <img src="assets/img/team/team-4.jpg" className="img-fluid" alt />
+                                            <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt />
 
                                         </div>
                                         <div className="member-info">
-                                            <h4>Amanda Jepson</h4>
-                                            <span>Accountant</span>
+                                            <h4>Neeraj M</h4>
+                                            <span>Assistant Coach</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </section>{/* End Team Section */}
@@ -484,14 +547,15 @@ function Home() {
                                 <p>Contact Us</p>
                             </div>
 
-                            <div><iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.245484283715!2d77.53382337463076!3d12.891930316620872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f948eb526e7%3A0xf55ef6d38e39c1fb!2sMatch%20Point%20Sports%20Arena!5e0!3m2!1sen!2sin!4v1696352734529!5m2!1sen!2sin" frameBorder={0} allowFullScreen /></div>
+                            <div><iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.980726314763!2d77.5363943!3d12.8919498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f953cfbcfbd%3A0x534a659423854469!2sAce%20Table%20Tennis%20Academy!5e0!3m2!1sen!2sin!4v1697980756506!5m2!1sen!2sin" frameBorder={0} allowFullScreen /></div>
                             <div className="row mt-5">
                                 <div className="col-lg-4">
                                     <div className="info">
                                         <div className="address">
                                             <i className="bi bi-geo-alt" />
                                             <h4>Location:</h4>
-                                            <p>P -34, Near Maha Prathyangira temple, Uttarahalli Hobli, Bengaluru, Karnataka 560061</p>
+                                            <p>Ace Table Tennis Academy
+                                                Match point sportsarena, near Maha Prathyangira temple, Uttarahalli Hobli, Bengaluru, Karnataka 560061</p>
                                         </div>
                                         <div className="email">
                                             <i className="bi bi-envelope" />
@@ -501,7 +565,7 @@ function Home() {
                                         <div className="phone">
                                             <i className="bi bi-phone" />
                                             <h4>Call:</h4>
-                                            <p>+1 5589 55488 55s</p>
+                                            <p>+91 79753 60331</p>
                                         </div>
                                     </div>
                                 </div>
