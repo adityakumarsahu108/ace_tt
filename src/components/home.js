@@ -200,6 +200,7 @@ function Home() {
                                     <ul id="portfolio-flters">
 
                                         <li data-filter=".filter-app">Photos</li>
+                                        <li data-filter=".filter-beta">Venue</li>
                                         <li data-filter=".filter-card">Awards</li>
                                         <li data-filter=".filter-web">Videos</li>
                                     </ul>
@@ -215,6 +216,116 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue1.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue2.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue12.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue3.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue4.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo6.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo8.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo7.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue8.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue9.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue10.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/venue11.jpeg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Venue</h4>
+                                            <p>Venue</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
 
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
@@ -560,12 +671,18 @@ function Home() {
                                         <div className="email">
                                             <i className="bi bi-envelope" />
                                             <h4>Email:</h4>
-                                            <p>info@example.com</p>
+                                            <p>acetabletennistt@gmail.com</p>
                                         </div>
                                         <div className="phone">
                                             <i className="bi bi-phone" />
                                             <h4>Call:</h4>
                                             <p>+91 79753 60331</p>
+                                        </div>
+                                        <div className="phone">
+                                            <i className="bi bi-instagram" />
+                                            <h4>Instagram</h4>
+                                            <p><a href="https://instagram.com/acett.academy?igshid=MzRlODBiNWFlZA=="target="_blank"> acett.academy </a></p>
+                                            
                                         </div>
                                     </div>
                                 </div>
