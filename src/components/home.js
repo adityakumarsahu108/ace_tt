@@ -4,6 +4,7 @@ import Video from "./Video";
 
 
 
+
 function Home() {
     return (
         <>
@@ -77,6 +78,8 @@ function Home() {
                             </div>
                         </div>
                     </section>{/* End About Section */}
+
+                    
 
                     {/* ======= Features Section ======= */}
                     <section id="features" className="features">
@@ -199,8 +202,8 @@ function Home() {
                                 <div className="col-lg-12 d-flex justify-content-center">
                                     <ul id="portfolio-flters">
 
-                                        <li data-filter=".filter-app">Photos</li>
                                         <li data-filter=".filter-beta">Venue</li>
+                                        <li data-filter=".filter-app">Photos</li>
                                         <li data-filter=".filter-card">Awards</li>
                                         <li data-filter=".filter-web">Videos</li>
                                     </ul>
@@ -261,15 +264,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
-                                    <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo6.jpeg" className="img-fluid" alt />
-                                        <div className="portfolio-info">
-                                            <h4>Venue</h4>
-                                            <p>Venue</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
                                         <img src="assets/img/portfolio/photo8.jpeg" className="img-fluid" alt />
@@ -370,6 +365,16 @@ function Home() {
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
                                         <img src="assets/img/portfolio/photo6.jpg" className="img-fluid" alt />
+                                        <div className="portfolio-info">
+                                            <h4>Photos</h4>
+                                            <p>Photo</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                                    <div className="portfolio-wrap">
+                                        <img src="assets/img/portfolio/photo9.jpeg" className="img-fluid" alt />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
