@@ -59,7 +59,7 @@ function Home() {
                         <div className="container" data-aos="fade-up">
                             <div className="row">
                                 <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay={100}>
-                                    <img src="assets/img/about.jpg" className="img-fluid" alt />
+                                    <img src="assets/img/about.jpg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay={100}>
                                     <h3>Welcome to ACE TT, your ultimate destination for all things table tennis! </h3>
@@ -172,7 +172,7 @@ function Home() {
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
 
-                                            <img src="assets/img/testimonials/g.png" className="testimonial-img" alt />
+                                            <img src="assets/img/testimonials/g.png" className="testimonial-img" alt="" />
                                             <h3>Girish Kulkarni</h3>
                                             <i className="bx bxs-quote-alt-left quote-icon-left" />
                                             ACE TT is a professional coaching acadamy with clear goal to produce professional players.
@@ -212,7 +212,7 @@ function Home() {
                             <div className="row portfolio-container" data-aos="fade-up" >
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo2.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo2.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photo</h4>
                                             <p>Photo</p>
@@ -221,7 +221,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue1.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue1.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -230,7 +230,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue2.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue2.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -239,7 +239,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue12.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue12.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -248,7 +248,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue3.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue3.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -257,7 +257,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue4.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue4.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -267,7 +267,7 @@ function Home() {
                                 
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo8.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo8.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -276,7 +276,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo7.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo7.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -285,7 +285,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue8.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue8.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -294,7 +294,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue9.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue9.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -303,7 +303,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue10.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue10.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -312,7 +312,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-beta">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/venue11.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/venue11.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Venue</h4>
                                             <p>Venue</p>
@@ -324,7 +324,7 @@ function Home() {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo1.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo1.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -334,7 +334,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -344,7 +344,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo4.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo4.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -354,7 +354,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo5.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo5.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -364,7 +364,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo6.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo6.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -374,7 +374,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/photo9.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/photo9.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -384,7 +384,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award2.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award2.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -394,7 +394,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award1.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award1.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -404,7 +404,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award3.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award3.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -414,7 +414,7 @@ function Home() {
 
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award7.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award7.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -424,7 +424,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award8.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award8.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -434,7 +434,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award9.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award9.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -444,7 +444,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award10.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award10.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Photos</h4>
                                             <p>Photo</p>
@@ -454,7 +454,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -464,7 +464,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award5.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award5.jpeg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -474,7 +474,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award6.jpeg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award6.jpeg" className="img-fluid" alt=""/>
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -484,7 +484,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award11.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award11.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -494,7 +494,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award12.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award12.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -504,7 +504,7 @@ function Home() {
                                 </div>
                                 <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                     <div className="portfolio-wrap">
-                                        <img src="assets/img/portfolio/award13.jpg" className="img-fluid" alt />
+                                        <img src="assets/img/portfolio/award13.jpg" className="img-fluid" alt="" />
                                         <div className="portfolio-info">
                                             <h4>Awards</h4>
                                             <p>Award</p>
@@ -569,7 +569,7 @@ function Home() {
                                 <div className="swiper-wrapper">
                                     <div className="swiper-slide">
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/anup.png" className="testimonial-img" alt />
+                                            <img src="assets/img/testimonials/anup.png" className="testimonial-img" alt="" />
                                             <h3>Anitha Baliga</h3>
 
                                             <p>
@@ -600,7 +600,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={100}>
                                         <div className="member-img">
-                                            <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt />
+                                            <img src="assets/img/portfolio/photo3.jpeg" className="img-fluid" alt="" />
 
                                         </div>
                                         <div className="member-info">
@@ -636,7 +636,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                                     <div className="member" data-aos="fade-up" data-aos-delay={400}>
                                         <div className="member-img">
-                                            <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt />
+                                            <img src="assets/img/portfolio/award4.jpeg" className="img-fluid" alt="" />
 
                                         </div>
                                         <div className="member-info">
@@ -656,7 +656,7 @@ function Home() {
                                 <p>Contact Us</p>
                             </div>
 
-                            <div><iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.980726314763!2d77.5363943!3d12.8919498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f953cfbcfbd%3A0x534a659423854469!2sAce%20Table%20Tennis%20Academy!5e0!3m2!1sen!2sin!4v1697980756506!5m2!1sen!2sin" frameBorder={0} allowFullScreen /></div>
+                            <div><iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.980726314763!2d77.5363943!3d12.8919498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f953cfbcfbd%3A0x534a659423854469!2sAce%20Table%20Tennis%20Academy!5e0!3m2!1sen!2sin!4v1697980756506!5m2!1sen!2sin"title="MAP" frameBorder={0} allowFullScreen /></div>
                             <div className="row mt-5">
                                 <div className="col-lg-4">
                                     <div className="info">
@@ -679,7 +679,7 @@ function Home() {
                                         <div className="phone">
                                             <i className="bi bi-instagram" />
                                             <h4>Instagram</h4>
-                                            <p><a href="https://instagram.com/acett.academy?igshid=MzRlODBiNWFlZA=="target="_blank"> acett.academy </a></p>
+                                            <p><a href="https://instagram.com/acett.academy?igshid=MzRlODBiNWFlZA=="target="_blank" rel="noreferrer"> acett.academy </a></p>
                                             
                                         </div>
                                     </div>
