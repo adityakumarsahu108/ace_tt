@@ -205,7 +205,7 @@ function Home() {
                                         <li data-filter=".filter-beta">Venue</li>
                                         <li data-filter=".filter-app">Photos</li>
                                         <li data-filter=".filter-card">Awards</li>
-                                        {/* <li data-filter=".filter-web">Videos</li> */}
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -512,14 +512,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                                    <div className="mamavideo">
-
-                                        <Video />
-                                    </div>
-
-
-                                </div> */}
+                                
                             </div>
                         </div>
                     </section>{/* End Portfolio Section */}
