@@ -16,7 +16,7 @@ function Home() {
                         <div className="row justify-content-center" data-aos="fade-up" data-aos-delay={150}>
                             <div className="col-xl-6 col-lg-8">
                                 <h1>ACE Table Tennis</h1>
-                                <h2>We are team of talented Table Tennis Players.</h2>
+                                <h2>We are a team of talented Table Tennis Players.</h2>
                             </div>
                         </div>
                         <div className="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay={250}>
@@ -581,7 +581,7 @@ function Home() {
 
                                             <p>
                                                 <i className="bx bxs-quote-alt-left quote-icon-left" />
-                                                Very good place for Kids! Srivasta takesc of kids and gives personal attention, and overall grooming. He enthusiastically encourages children to participate in tournaments too. Looking forward for more accomplishments and laurels for children and academy too.
+                                                Very good place for Kids! Srivasta takes care of kids and gives personal attention, and overall grooming. He enthusiastically encourages children to participate in tournaments too. Looking forward for more accomplishments and laurels for children and academy too.
                                                 <i className="bx bxs-quote-alt-right quote-icon-right" />
 
 
