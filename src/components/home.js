@@ -532,28 +532,28 @@ function Home() {
                                                 <div className="count-box">
                                                     <i className="bi bi-emoji-smile" />
                                                     <span data-purecounter-start={0} data-purecounter-end={65} data-purecounter-duration={10} className="purecounter" />
-                                                    <p><strong>Happy Students</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                                                    <p><strong>Happy Students</strong> Exceptional coaching at the academy has transformed aspiring table tennis players into a joyful and skilled team, fostering a positive and dynamic learning environment.</p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
                                                 <div className="count-box">
                                                     <i className="bi bi-journal-richtext" />
                                                     <span data-purecounter-start={0} data-purecounter-end={115} data-purecounter-duration={2} className="purecounter" />
-                                                    <p><strong>Tournaments</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                                                    <p><strong>Tournaments</strong> The academy consistently hosts a variety of engaging tournaments, offering students valuable opportunities to showcase their skills in a spirited and competitive environment.</p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
                                                 <div className="count-box">
                                                     <i className="bi bi-clock" />
                                                     <span data-purecounter-start={0} data-purecounter-end={35} data-purecounter-duration={4} className="purecounter" />
-                                                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                                                    <p><strong>Years of experience</strong>  The coaches at the table tennis academy bring a high level of expertise and many years of coaching experience, enhancing the training environment and providing invaluable insights for aspiring players.</p>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 d-md-flex align-items-md-stretch">
                                                 <div className="count-box">
                                                     <i className="bi bi-award" />
                                                     <span data-purecounter-start={0} data-purecounter-end={20} data-purecounter-duration={4} className="purecounter" />
-                                                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                                                    <p><strong>Awards</strong> Students proudly celebrate numerous awards earned at the academy and other tournaments, a testament to their hard work and the supportive environment that fosters excellence.</p>
                                                 </div>
                                             </div>
                                         </div>
